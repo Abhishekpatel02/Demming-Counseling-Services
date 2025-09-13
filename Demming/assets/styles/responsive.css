@@ -1,0 +1,679 @@
+@media only screen and (max-width:  1600px) {
+
+}/*1560*/
+@media only screen and (max-width:  1559px) {
+
+}/*1440*/
+@media only screen and (max-width:  1439px) {
+	.experience-box-container {
+		width: 320px;
+	}
+	.specialization_list {
+	    font-size: 18px;
+	    width: 62%;
+	    margin: 0 auto;
+	}
+
+}/*1366*/
+@media only screen and (max-width:  1365px) {
+	.box {
+		margin: 0px 16px;
+	}
+	.experience-box-container {
+		width: 310px;
+	}
+	.specialization_list {
+		width: 63%;
+	}
+}/*1320*/
+@media only screen and (max-width:  1319px) {
+	.banner {
+    	padding: 216px 0px 201px 0px;
+	}
+	.experience-box-container {
+		width: 300px;
+	}
+	.specialization_list {
+    	font-size: 17px;
+	}
+	.banner-section h1 {
+		font-size: 51px;
+		line-height: 63px;
+	}
+	.about-section-content h2 {
+		font-size: 45px;
+    	line-height: 58px;
+	}
+}
+	/*1280*/
+@media only screen and (max-width: 1279px){
+	.banner {
+        padding: 204px 0px 138px 0px;
+    }
+	.banner-section h1 {
+		font-size: 51px;
+		line-height: 63px;
+	}
+	.box {
+        margin: 0px 14px;
+    }
+    .second_svg {
+    	top: 94%;
+    	padding: 13px 13px;
+	   width: 19%;
+	}
+	.specialization_list {
+		width: 69%;
+	}
+	.appointments h3 {
+	    font-size: 35px;
+	    line-height: 48px;
+	}
+	.about-section-content {
+   	 	width: 45%;
+	}
+	.about-section-content h2 {
+		font-size: 40px;
+    	line-height: 52px;
+	}
+	.experience-box-container {
+        width: 283px;
+    }
+}
+/*1200*/
+@media only screen and (max-width: 1199px){
+	.banner {
+        padding: 180px 0px 112px 0px;
+    }
+    .banner-section h1 {
+        font-size: 44px;
+        line-height: 56px;
+    }
+    .boxes {
+    	padding: 32px 0px 19px 0px;
+	}
+	.box {
+    	margin: 0px 12px;
+	}
+	.box h4 {
+        font-size: 17px;
+        line-height: 29px;
+    }
+	.second_svg {
+		width: 18%;
+	}
+	.specialization_category {
+		padding: 33px 0px 21px 0px;
+	}
+	.specialization {
+	    padding: 49px 0px 66px 0px;
+	}
+	.specialization_para p {
+		width: 80%;
+	}
+	.specialization_list {
+    	width: 80%;
+	}
+	.about {
+        padding: 40px 0px 60px 0px;
+    }
+	.about-section-images{
+	    float: unset;
+	    width: 60%;
+	    margin: 0 auto;
+	}
+	.about-section-content {
+        float: unset;
+        width: 100%;
+    }
+    .about-section-content h2 {
+    	padding: 16px 0px 0px 0px;
+	}
+	.about-section-content.right p {
+	    font-weight: 500;
+	    padding-top: 20px;
+	}
+	.appointments {
+    	padding: 22px 0px 41px 0px;
+	}
+	.appointments h3 {
+	    font-size: 30px;
+	    line-height: 43px;
+	}
+	.experience-box-container {
+    	width: 240px;
+	}
+	.experience_box_content h5 {
+    	font-size: 16px;
+    	line-height: 28px;
+    }
+	.form-container h3 {
+    	font-size: 39px;
+    	line-height: 51px;
+	}
+	.form-container {
+		width: 74%
+	}
+	.contact-box-container a {
+		font-size: 18px;
+	}
+	.contact-box-container {
+ 	   padding-left: 97px;
+	}
+	 .footer_background_image {
+    	padding: 333px 0px 10px;
+	}
+}
+/*1024*/
+@media only screen and (max-width: 1023px){
+	.banner {
+        padding: 148px 0px 78px 0px;
+    }
+	.header_button a {
+	    padding: 17px 30px;
+	    font-size: 16px;
+	}
+	.boxes {
+	    width: 71%;
+	    margin: 0 auto;
+	}
+	.box {
+	    width: 46%;
+	    margin: 22px 12px;
+	}
+	.second_svg {
+        width: 13%;
+        top: 93%;
+    }
+	.banner_section_potrait_image {
+	    top: 8px;
+	    width: 35%;
+	}	
+	.specialization_para {
+ 	   padding-top: 0px;
+	}
+	.about_box h3 {
+	    font-size: 55px;
+	    line-height: 67px;
+	}
+	.about_box h4 {
+		font-size: 18px;
+		line-height: 30px;
+		width: 149px;
+	}
+	.about_box {
+		width: 187px;
+	    height: 187px;
+	}
+	.specialization_list {
+        width: 82%;
+    }
+    .specialization_para p {
+    	font-size: 16px;
+    	line-height: 28px;
+    }
+    .experience_boxes {
+	    width: 65%;
+	    margin: 0 auto;
+	}
+	.experience-box-container {
+        margin: 0px 0px 43px 50px; 
+    }
+    .experience-box-container h5 {
+    	padding-right: 10px;
+	}
+    .experience-box-container:nth-child(even) {
+    	border: none;
+	}
+	.contact-box-container {
+        padding-left: 68px;
+    }
+    .footer_background_image {
+        padding: 312px 0px 10px;
+    }
+}
+	/*980*/
+
+@media only screen and (max-width:979px){
+	.banner {
+        padding: 133px 0px 36px 0px;
+    }
+    .banner-section h1 {
+        font-size: 28px;
+        line-height: 40px;
+        padding-bottom: 22px;
+    }
+	.nav-logo.left {
+	    float: unset;
+	    text-align: center;
+	}
+	.contact-info.right {
+	    float: unset;
+	    text-align: center;
+	}
+	.banner-section h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .specialization-section h3 {
+    	font-size: 41px;
+ 	   line-height: 54px;
+	}
+	.boxes {
+    	padding: 56px 0px 19px 0px;
+	}
+	.box {
+        width: 44%;
+        padding: 30px 0px;
+    }
+    .second_svg {
+        width: 18%;
+    }
+    .about-section-images {
+        float: unset;
+        width: 63%;
+        margin: 0 auto;
+    }
+    .banner_section_potrait_image {
+        top: 8px;
+        width: 42%;
+    }
+    .specialization_para p {
+    	width: 85%;
+    }
+    .specialization_category {
+    	font-size: 16px;
+    	line-height: 28px;
+    }
+    .specialization_list {
+        width: 98%;
+        font-size: 16px;
+    }
+    .appointments h3 {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .experience_boxes {
+        width: 80%;
+    }
+    .form-container {
+        width: 78%;
+    }
+    .form-container h3 {
+        font-size: 33px;
+        line-height: 45px;
+    }
+    .input-fields {
+    	padding: 29px 0px 8px 0px;
+    }
+    .contact-box-container {
+        padding-left: 39px;
+    }
+    .footer_background_image {
+        padding: 270px 0px 10px;
+    }
+	.contact_boxes {
+    	padding-top: 75px;
+	}
+}
+/*768*/
+@media only screen and (max-width:767px){
+	.banner {
+        padding: 102px 0px 36px 0px;
+    }
+	.banner-section h1 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .about_box {
+        width: 161px;
+        height: 161px;
+        left: 73%;
+    }
+    .about_box h3 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .about_box h4 {
+        font-size: 16px;
+        line-height: 28px;
+        width: 123px;
+    }
+    .specialization_para p {
+        width: 100%;
+    }
+
+    .specialization_category {
+    	padding: 29px 0px 24px 0px;
+	}
+	.specialization_list {
+        width: 74%;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .specialization_list ul li {
+	    display: inline-block;
+	    width: 49%; 
+	    padding-left: 35px;
+	}
+	.banner_section_potrait_image {
+        top: 8px;
+        width: 50%;
+    }
+    .appointments h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .experience_boxes {
+        width: 96%;
+    }
+    .appointments {
+        padding: 17px 0px 25px 0px;
+    }
+    .form-container h3 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .contact-box-container {
+        padding-left: 14px;
+    }
+    .footer_background_image {
+        padding: 230px 0px 10px;
+    }
+    .contact_boxes {
+    	padding-top: 103px;
+	}
+}
+	/*650*/
+@media only screen and (max-width:649px){
+	.specialization {
+        padding: 32px 0px 45px 0px;
+    }
+	.specialization-section h3 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+	.boxes {
+		padding: 31px 0px 0px 0px;
+        width: 92%;
+        margin: 0 auto;
+    }
+    .specialization_para {
+        padding-top: 32px;
+    }
+    .specialization_list {
+        width: 85%;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .about {
+        padding: 11px 0px 11px 0px;
+    }
+    .about-section-images {
+        float: unset;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .about-section-content h2 {
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .about-section-content.right p {
+    	padding-top: 20px;
+    }
+    .appointments {
+        padding: 40px 0px 36px 0px;
+    }
+   	.appointments h3 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .experience_boxes {
+        width: 64%;
+        margin: 0 auto;
+    }
+    .experience-box-container {
+    	border: none;
+    }
+    .appointments {
+        padding: 19px 0px 24px 0px;
+    }
+    .experience_box_content h5 {
+    	padding: 10px 0px 0px 0px;
+    }
+    .form-container {
+    	padding: 22px 0px 26px 0px;
+    }
+    .contact_boxes {
+	    width: 50%;
+	    margin: 0 auto;
+	}
+	.contact_box a {
+		margin: 0;
+	}
+	.contact-box-container {
+        padding-bottom: 13px;
+    }
+    .contact_images_section {
+	    padding: 38px 0px;
+	    width: 80%;
+	    margin: 0 auto;
+	}
+	.footer_background_image {
+        padding: 160px 0px 10px;
+    }
+    .contact_boxes {
+    	padding-top: 167px;
+	}
+	 .contact_images_section {
+        padding: 15px 0px;
+    }
+}
+ /*568*/
+
+@media only screen and (max-width:567px){
+ 	.call_logo a {
+ 		font-size: 16px;
+ 	}
+ 	.header_button a {
+        padding: 14px 21px;
+    }
+    .banner {
+        padding: 82px 0px 22px 0px;
+    }
+ 	.banner-section h1 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .banner-section-btn a {
+    	padding: 10px 35px;
+	}
+	.common-btn {
+		font-size: 16px;
+	}
+	.boxes {
+        padding: 0px 0px 0px 0px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .box {
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .specialization_list {
+        width: 100%;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .about_box {
+        left: 60%;
+    }
+    .about-section-images {
+        float: unset;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .about-section-content h2 {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .appointments h3 {
+    	width: 95%;
+    }
+    .experience_boxes {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .experience_box_content h5 {
+	    text-align: center;
+	    padding-top: 14px;
+	}
+    .about {
+        padding: 37px 0px 0px 0px;
+    }
+    .footer_background_image {
+        padding: 90px 0px 10px;
+    }
+    .contact_boxes {
+        padding-top: 234px;
+    }
+}
+/*480*/
+@media only screen and (max-width:479px){
+	.nav-logo svg {
+   	 	width: 77%;
+	}
+	.contact-info {
+    	padding-top: 0px;
+	}
+	.header_button a {
+        padding: 10px 15px;
+    }
+    .specialization_list ul li {
+        width: 100%;
+     }
+     .about-section-images {
+        float: unset;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .experience_boxes {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .form-container h3 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .form {
+    	padding-top: 16px;
+	}
+	.input-fields input, .input-fields select {
+	    padding: 14px 0px 0px 45px;
+	    font-size: 16px;
+	}
+	.contact-box-container a {
+        font-size: 16px;
+    }
+    .footer_background_image {
+        padding: 40px 0px 10px;
+    }
+    .contact_boxes {
+        padding-top: 282px;
+    }
+}
+/*414*/
+@media only screen and (max-width:413px){
+	.specialization-section h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+	.about-section-content h2 {
+        font-size: 20px;
+        line-height: 33px;
+    }
+    .experience_box_content h5 {
+        padding-top: 15px;
+	}
+    .about_box h4 {
+        font-size: 14px;
+        line-height: 19px;
+        width: 107px;
+    }
+    .about_box {
+        width: 150px;
+        height: 150px;
+    }
+	.form-container {
+        width: 83%;
+    }
+}
+/*390*/
+
+@media only screen and (max-width:389px){
+	.call_logo a {
+    	padding: 0px 20px 0px 0px;
+	}
+	.contact-info {
+    	padding-top: 0px;
+	}
+    .banner-section h1 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .second_svg {
+        width: 20%;
+    }
+    .banner_section_potrait_image {
+        top: 0px;
+        width: 53%;
+    }
+    .appointments {
+        padding: 13px 0px 19px 0px;
+    }
+}
+/*375*/
+@media only screen and (max-width:374px){
+    .call_logo a {
+        padding: 0px 0px 10px 0px;
+    }
+    .banner-section h1 {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .box h4 {
+	    padding: 10px 0px 0px 0px;
+	}
+    .boxes {
+        padding: 31px 0px 0px 0px;
+        width: 65%;
+        margin: 0 auto;
+    }
+    about_box h4 {
+        font-size: 16px;
+        line-height: 28px;
+        width: 109px;
+    }
+    .about_box h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+       .about_box {
+        width: 129px;
+        height: 129px;
+    }
+    .experience_boxes {
+        width: 100%;
+         margin: 0 auto; 
+    }
+    .experience_box_content h5 {
+    	padding-top: 10px;
+	}
+	.form-container {
+        width: 92%;
+    }
+    .contact-box-container a {
+        font-size: 13px;
+    }
+}
+/*320*/

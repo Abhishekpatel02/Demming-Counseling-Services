@@ -1,0 +1,457 @@
+/*common css */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box	;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+}
+.header_center_wrapper{
+	max-width: 1420px;
+	margin: auto;
+    width: 96%;
+}
+.center-wrapper{
+	max-width: 1325px;
+	margin: auto;
+    width: 96%;
+}
+p{
+	line-height: 30px;
+}
+body{
+	 font-family: "Poppins", serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+	font-family: "Montserrat", sans-serif;
+}
+h1{
+	font-size: 60px;
+	line-height: 85px;
+}
+h2{
+	font-size: 52px;
+	line-height: 70px;
+}
+h3{
+	font-size: 47px ;
+	line-height: 58px;
+}
+h4{
+	font-size: 22px;
+	line-height: 36px;
+}
+h5{
+	font-size: 18px;
+	line-height: 28px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.common-btn {
+    background-color: #4B0858;
+    border-radius: 35px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 18px;
+	border: none;
+}
+.common-btn:hover{
+	background-color: #09768f; 
+	transition: all 0.3s 0.2s ease-out;
+}
+/*/common css end*/
+/*.......................header css start................*/
+header {
+    padding: 17px 0px 22px 0px;
+}
+.contact-info {
+    padding-top: 20px;
+}
+.call_logo {
+    display: inline-block;
+}
+.call_logo a{
+    padding: 0px 33px 0px 0px;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 700;
+ }
+ .call_logo a:hover svg {
+    transform: rotate(45deg);
+    transition: 0.8s all;
+}
+.call_logo a:hover {
+   color: #4b4f8d;
+   transition: 0.5s all;
+}
+.header_button {
+    display: inline-block;
+}
+.header_button a{
+	padding: 17px 53px;
+}
+/*....................../header css End..............................*/
+/*......................banner section Start.........................*/
+.banner{
+	background: url(../images/banner.jpg) no-repeat center/cover;
+    padding: 305px 0px 253px 0px;
+   
+    position: relative;
+    z-index: 1;
+}
+section.banner:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 23, 81, 0.4);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.banner-section h1{
+    color: #ffffff;
+    text-align: center;
+    /*width: 94%;*/
+    padding-bottom: 50px;
+}
+.banner-section-btn{
+	text-align: center;
+}
+.banner-section-btn a{
+    padding: 17px 47px;
+}
+/*................/banner section css done...........................*/
+/*...............specalization section start......................*/
+.specialization{
+	background-color: #F7F7FF;
+	padding: 139px 0px 110px 0px;
+}
+.specialization-section h3 {
+    text-align: center;
+    font-weight: 800;
+}
+#sort-select {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    outline: none;
+    float: right;
+}
+.boxes {
+    padding: 87px 0px 19px 0px;
+}
+.box{
+	width: 22%;
+    background-color:#FFFFFF;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding: 80px 0px 20px;
+    margin: 0px 18px;
+    vertical-align: top;
+}
+.box_image svg {
+    min-height: 90px;
+}
+.box.c4 {
+    margin-right: 0;
+}
+.box h4{
+	padding: 40px 15px 0px 19px;
+	color: black;
+    min-height: 150px;
+}
+.second_svg{
+	position: absolute;
+    width: 15%;
+    background-color: #4B0858;
+    padding: 15px 15px;
+    border-radius: 50%;
+    left: 42%;
+    top: 92%;
+}
+.box:hover{
+	background-color: #4B0858;
+	color: #ffffff;
+	transition: 0.8s all;
+}
+.box:hover h4 {
+    color: #fff;
+}
+.box:hover path,.contact_box:hover path {
+   fill: #ffffff;
+   stroke: #ffffff;
+}
+.box:hover .second_svg{
+	transform: rotate(90deg);
+    background-color: #B07AB4;
+    transition:  0.8s all;
+}
+.specialization_para {
+    padding-top: 52px;
+}
+.specialization_para p{
+	background: url("../images/Group 81.svg") no-repeat top;
+	padding-top: 43px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+ }
+.specialization_category{
+	text-align:center;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+    padding: 52px 0px 30px 0px;
+}
+.specialization_list{
+    font-size: 18px;
+    width: 60%;
+    margin: 0 auto;
+}
+.specialization_list ul li{
+    display: inline-block;
+    width: 31.545%;
+    padding-left: 35px;
+}
+.specialization_list ul li:before{
+    content: "";
+    display: list-item;
+    position: absolute;
+    margin-left: 7px;
+}
+/*...............specalization section end...........*/
+/*...............About section start................*/
+.about{
+	padding: 135px 0px 159px 0px;
+}
+.about-section-images {
+    position: relative;
+    padding-top: 48px;
+}
+.banner_section_potrait_image {        
+	position: absolute;
+    top: 0;
+}
+.about_box {
+    border-left: 14px solid #ffffff;
+    border-top: 14px solid #ffffff ;
+    border-bottom: 22px solid #B07AB4;
+    border-right: 22px solid #B07AB4;
+    background-color: #B07AB4;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.about_box h3 {
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #ffffff;
+ }
+.about_box h4{
+	background:url("../images/Group 101.svg") no-repeat right;
+    width: 166px;
+    text-align: center;
+    color: #ffffff;
+    padding: 8px 0px 26px 26px;
+    line-height: 25px;
+    font-weight: 800;
+}
+.about-section-content{
+	width: 48%;
+}
+.about-section-content h2{
+    font-weight: 800;
+    padding-right: 168px;
+}
+.about-section-content.right p{
+    font-weight: 500;
+    padding-top: 40px;
+}
+.appointments {
+    padding: 85px 0px 119px 0px;
+}
+.appointments h3 {
+    font-size: 40px;
+    font-weight: 800;
+    width: 82%;
+    text-align: center;
+    margin: 0 auto;
+}
+.experience-box-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 327px;
+    border-right: 1px dashed #f0e8f5;
+}
+.experience-box-container:last-child{
+	border: none;
+}
+.experience_box {
+    border-radius: 70px;
+    background-color: #f0e8f5;
+    width: 143px;
+    height: 143px;
+    margin: 0 auto;
+    position: relative;
+}
+.experience_box svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.experience_box_content h5{
+    text-align: center;
+    padding-top: 31px;
+}
+/*................about-section-end..........................*/
+/*...............footer-section-start.......................*/
+.form-container{
+    background-color:#ffffff;
+    width: 66%;
+    text-align: center;
+    margin: 0 auto -305px;
+    padding: 52px 0px 58px 0px;
+    box-shadow: 3px 4px 22px grey;
+    position: relative;
+}
+.form-container h3{
+    position: relative;
+ }
+ .form-container h3:after {
+    content: "";
+    position: absolute;
+    right: 42%;
+    bottom: -26px;
+    border: 2.5px solid #B07AB4;
+    width: 18%;
+}
+.form {
+    padding-top: 42px;
+}
+.name-field input{
+	background:url("../images/Group 219.svg") no-repeat;
+}
+.email-field input{
+	background:url("../images/Group 221.svg") no-repeat;
+}
+.contact-field input{
+	background:url("../images/Group 251.svg") no-repeat;
+}
+.service-field select{
+	background:url("../images/Group 227.svg")no-repeat;
+}
+.input-fields {
+    display: inline-block;
+    padding: 69px 0px 8px 0px;
+    border-bottom: 2px solid #efecf9;
+    margin-left: 23px;
+}
+.input-fields input,.input-fields select  {
+    padding: 14px 0px 0px 45px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+.input-fields select {
+	padding: 14px 55px 0px 45px;
+}
+.input-fields select {
+    background-color: #ffffff;
+    color:  #808080;
+}
+.submit-btn{
+	padding-top: 50px;
+}
+.submit-btn input{
+    padding: 13px 43px;
+}
+.footer_background_image{
+	background: url("../images/Depositphotos_16630729_XL.jpg")  no-repeat center/cover;
+	box-shadow: inset 0 0 0 2000px rgb(94 52 151 / 40%);
+	padding: 358px 0px 10px;
+}
+.background_image_container{
+	text-align: center;
+}
+.contact-box-container{
+	display: inline-block;
+    padding-left: 118px;
+}
+.contact_box a{
+    border-radius: 50px;
+    width: 73px;
+    height: 73px;
+    margin: 0 auto 26px;
+    background-color: #ffffff;
+    position: relative;
+}	
+.contact_box a svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.contact_box a:hover {
+    background-color: #B07AB4;
+    transition: 0.5s all;
+
+}
+.contact-box-container a{
+	color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.contact-box-container a:hover  {
+	color: #020712;
+    transition: 0.5s all;
+    transform: scale(1.1);
+}
+.contact_images_section {
+    padding: 38px 0px;
+}
+.contact_images {
+    display: inline-block;
+    padding-left: 20px;
+}
+.footer-section {
+    padding: 14px 0px;
+    background-color: #4B0858;
+}
+.footer-section p{
+	color: #ffffff;
+	text-align: center;
+	font-weight: 600;
+}
+.footer-section p a{
+	color: #ffffff;
+}
+.footer-section a:hover{
+	color: #808080;
+	transition: 0.5s all;
+}
+/*..........................footer-section-end .......................................
